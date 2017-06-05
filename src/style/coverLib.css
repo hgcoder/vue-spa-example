@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors huxiao(you@example.org)
+ * @date    2017-05-25 11:20:00
+ * @version $Id$
+ */
+.ivu-col{
+  transition: width .2s ease-in-out;
+}
+.ivu-menu-vertical.ivu-menu-light:after{
+	display: none;
+}
+.layout-nav .ivu-col .ivu-menu-item{
+  padding: 0;
+}
+.ivu-menu-horizontal .ivu-col .ivu-menu-submenu{
+	padding: 0;
+}
