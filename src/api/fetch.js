@@ -3,7 +3,7 @@
  * @date    2017-05-25 11:14:25
  * @version $Id$
  */
-/* eslint-disable no-new */
+
 import axios from 'axios'
 import {showMsg, loading} from '../utils'
 

@@ -13,7 +13,6 @@
 </template>
 
 <script>
-  // import {nav} from './store.js'
   import breadCru from './components/common/breadCru.vue'
   import navBar from './components/common/navBar.vue'
   import side from './components/common/nav.vue'
@@ -34,6 +33,8 @@
     .layout{
         background: #f5f7f9;
         height: 100%;
+        overflow-x: hidden;
+
     }
    
     .layout-nav{
