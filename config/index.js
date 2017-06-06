@@ -25,7 +25,7 @@ module.exports = {
     // favicon: path.resolve(__dirname,'../static/favicon.ico'),
     proxyTable: {
       '/task':{
-        target:'',
+        target:'http:x.x.x.:8890:/task',
         changeOrigin:true,
         pathRewrite:{ //匹配转发
           '^/task':''
